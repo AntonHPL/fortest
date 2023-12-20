@@ -1,0 +1,15 @@
+.aside-menu {
+  width: 90%;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1200px) {
+  .aside-menu .ant-menu-title-content {
+    display: none;
+  }
+  .aside-menu .ant-menu-item {
+    justify-content: center !important;
+    padding-left: 0 !important;
+    padding-inline: 0;
+  }
+}

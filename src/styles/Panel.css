@@ -1,0 +1,35 @@
+.panel-container__bell-outlined {
+  font-size: var(--std-indent);
+}
+
+.panel-container__divider {
+  margin: 0;
+}
+
+.panel-container__theme-button {
+  margin-right: var(--std-indent);
+}
+
+.panel-container__theme-button--light {
+  background: #fff;
+}
+
+.panel-container__theme-button--dark {
+  background: #000;
+}
+
+.panel-container__bell-button {
+  margin: 0 var(--std-indent);
+}
+
+@media screen and (max-width: 768px) {
+  .ant-segmented-group {
+    flex-direction: column;
+  }
+  .panel-container__bell-button {
+    order: -1;
+  }
+  .panel-container__theme-button {
+    order: -2;
+  }
+}
